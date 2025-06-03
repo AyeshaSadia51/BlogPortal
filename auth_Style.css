@@ -1,0 +1,79 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: #660099;
+    color: #fff;
+}
+
+.navbar-brand,
+.nav-item {
+    color: #fff;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #d1b3ff;
+}
+
+/* Change toggle button icon color to white */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Change toggle button border color */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 1);
+    /* White border */
+}
+
+/* Remove focus outline and keep the border white */
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.container{
+    background-color: white;
+    border-radius: 15px;
+}
+a:hover {
+    color: #660099;
+    transition: 0.3s;
+}
+a{
+    display: inline;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.form-label{
+    color:  rgb(4, 28, 44);
+}
+
+.form-control{
+    border: solid 1px rgb(5, 25, 41);
+}
+.btn {
+    background-color: #660099;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #9900ff;
+    color: white;
+    transition: 0.3s;
+}

@@ -1,0 +1,130 @@
+/* Hover effect for blog posts */
+.blog-post {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: scale(1.05);
+  /* Slightly enlarge the blog post */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  /* Add shadow to create a "floating" effect */
+  cursor: pointer;
+  /* Change cursor to indicate it's clickable */
+}
+
+/* Additional Custom Styles for Header and Banner */
+.intro-banner {
+  background: #660099;
+  color: white;
+  padding: 45px 0;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.intro-banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.intro-banner p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.intro-banner .btn {
+  background-color: #dac5e1;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.intro-banner .btn:hover {
+  background-color: #b47abb;
+  color: black;
+}
+
+
+
+.container {
+  margin-top: 2px;
+}
+
+.col-md-4 {
+  margin-top: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(5, 25, 41);
+  font-weight: bold;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar {
+  background-color: #660099;
+  color: #fff;
+}
+
+.navbar-brand,
+.nav-item {
+  color: #fff;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #d1b3ff;
+}
+
+/* Change toggle button icon color to white */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Change toggle button border color */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 1);
+  /* White border */
+}
+
+/* Remove focus outline and keep the border white */
+.navbar-toggler:focus {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 1);
+}
+
+/* Ensure the page fills the viewport */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  /* Ensure main content takes up available space */
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

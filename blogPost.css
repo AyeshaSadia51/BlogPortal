@@ -1,0 +1,58 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.navbar {
+  background-color: #660099;
+  color: #fff;
+}
+
+.navbar-brand,
+.nav-item {
+  color: #fff;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #d1b3ff;
+}
+/* Change toggle button icon color to white */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Change toggle button border color */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 1); /* White border */
+}
+
+/* Remove focus outline and keep the border white */
+.navbar-toggler:focus {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 1);
+}
+
+
+.btn{
+  background-color: #660099;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #9900ff;
+  color: white;
+  transition: 0.3s;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

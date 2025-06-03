@@ -1,0 +1,107 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #660099;
+  color: #fff;
+}
+#navTogg{
+  z-index: 5;
+}
+
+.navbar-brand,
+.nav-item {
+  color: #fff;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #d1b3ff;
+}
+
+/* Change toggle button icon color to white */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Change toggle button border color */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 1); /* White border */
+}
+
+/* Remove focus outline and keep the border white */
+.navbar-toggler:focus {
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 1);
+}
+
+/* Ensure the page fills the viewport */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1; /* Ensure main content takes up available space */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Accordion Styling for FAQ page */
+.accordion-button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:hover {
+  background-color: #660099;
+  color: #fff;
+}
+
+.accordion-body {
+  background-color: #f3e5ff;
+  color: #333;
+}
+
+/* myaccount Section of FAQ Page*/
+.myaccount-section {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px 0;
+}
+
+.myaccount-section h2 {
+  color: black;
+  margin-bottom: 26px;
+}
+
+.myaccount-btn {
+  background-color: #fff;
+  border: 2px solid #660099;
+  color: #660099;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.myaccount-btn:hover {
+  background-color: #660099;
+  color: #fff;
+}
