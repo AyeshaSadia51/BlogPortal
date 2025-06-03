@@ -21,3 +21,6 @@ Developed a dynamic blog website using HTML, CSS, Bootstrap, PHP, and MySQL. The
 - Responsive design using Bootstrap for mobile and desktop devices.
 
 - Backend powered by PHP and MySQL with structured database design.
+
+# Screenshot
+![Image](https://github.com/user-attachments/assets/7e2c1bf6-7fa5-41bf-8617-dd92b4653ef6)
